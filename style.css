@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: serif;
+}
+
+.container{
+    height: 100vh; 
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: radial-gradient(circle, rgba(82, 172, 255, .63) 0%, rgba(25, 99, 165, .85) 50%, rgba(11, 74, 126, 1) 100%);
+}
+
+.weather{
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    font-size: 1.5rem;
+}
+
+#location{
+    font-size: 3rem;
+    font-weight: 800;
+    font-style: italic;
+}
+.desc {
+    font-size: 1.25rem;
+    text-transform: capitalize;
+}
+.circle{
+    background-color: black;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+}
